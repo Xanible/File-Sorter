@@ -40,6 +40,7 @@ public class FileOperator {
 			System.out.println("File " + f.getName() + " already exists!");
 		} catch (IOException e) {
 			System.out.println("File " + f.getName() + " could not be copied");
+			e.printStackTrace();
 		}
 	}
 }
